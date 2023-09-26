@@ -99,7 +99,7 @@
   height: 4vw;
 }
 .socials-txt {
-  font-size: 1.5vw;
+  font-size: 3vw;
 }
 .about-icons {
   width: 5vw;
@@ -116,10 +116,25 @@
 .font-600 {
   font-weight: 600;
 }
+.font-100 {
+  font-weight: 100;
+}
+
+.desing {
+  font-size: 1.5vw;
+}
 
 footer {
   background-color: rgb(41, 64, 168);
   padding: 2vw;
+}
+
+.img-face {
+  clip-path: circle();
+  top: -13.5vw;
+  left: -5.5vw;
+  position: absolute;
+  
 }
 /* Media Queries */
 /* Card sizing */
@@ -370,4 +385,17 @@ body {
 }
 #misja .demo-card--step5 .head::after {
   border-color: rgb(41, 64, 168);
+}
+
+.img-contact-main-container {
+  display: flex;
+  background: rgb(181, 62, 71);
+  border-radius: 50%;
+  width: 30vw;
+  height: 30vw;
+  align-items: center;
+}
+.img-contact-container {
+  position: absolute;
+  width: 41vw;
 }
