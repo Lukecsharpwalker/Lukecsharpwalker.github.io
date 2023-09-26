@@ -116,6 +116,11 @@
 .font-600 {
   font-weight: 600;
 }
+
+footer {
+  background-color: rgb(41, 64, 168);
+  padding: 2vw;
+}
 /* Media Queries */
 /* Card sizing */
 /* Colors */
