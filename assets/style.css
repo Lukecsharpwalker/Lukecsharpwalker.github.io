@@ -12,7 +12,7 @@
   color: white;
   font-size: 18vw;
   line-height: 18vw;
-  padding: 0 2.5rem;
+  padding: 0 5vw;
   font-weight: 900;
   box-shadow: 0px 11px 15px rgb(134, 134, 134);
 }
@@ -24,12 +24,24 @@
   line-height: 4vw;
   font-weight: 800;
 }
+@media (max-width: 500px) {
+  .barbara { 
+    padding-top: 0.5rem;
+  }
+  .grygorcewicz {
+    padding-bottom: 0.5rem;
+  }
+}
+@media (min-width: 501px) {
+  .grygorcewicz {
+    padding-bottom: 1rem;
+  }
+}
 .grygorcewicz {
   background-color: rgb(41, 64, 168);
   color: white;
   font-size: 9vw;
   line-height: 9vw;
-  padding-bottom: 0.938rem;
   padding-right: 0.5vw;
   font-weight: 800;
   box-shadow: 0px 11px 15px rgb(134, 134, 134);
@@ -53,28 +65,28 @@
 }
 .kazdy {
   color: rgb(41, 64, 168);
-  font-size: 2.083vw;
+  font-size: 3vw;
 }
 .zgadzasz {
   color:rgb(181, 62, 71);
-  font-size: 3.125vw;
-  font-weight: bold;
+  font-size: 3.333vw;
+  font-weight: 700;
   text-shadow: 0px 5px 8px rgb(184, 184, 184);
 }
 .jesli {
-  font-size: 2.083vw;
+  font-size: 3vw;
   color: rgb(41, 64, 168);
 }
 .zaglosuj {
   text-transform: uppercase;
   font-size: 3.333vw;
-  color: rgb(41, 64, 168);
-  font-weight: bolder;
+  color:rgb(181, 62, 71);
+  font-weight: 700;
   text-shadow: 0px 11px 15px rgb(134, 134, 134);
 }
 .okreg {
   color: rgb(41, 64, 168);
-  font-size: 2.083vw;
+  font-size: 3vw;
 }
 .znajdziesz {
   color: rgb(41, 64, 168);
@@ -100,6 +112,9 @@
   .about-txt {
     font-size: 2vw;
   }
+}
+.font-600 {
+  font-weight: 600;
 }
 /* Media Queries */
 /* Card sizing */
