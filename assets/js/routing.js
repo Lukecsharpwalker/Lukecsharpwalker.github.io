@@ -7,10 +7,10 @@ $(document).ready(function () {
         // Sprawdź, jaki jest aktualny adres URL i wykonaj odpowiednie działania
         if (path === "/") {
             // Strona główna
-            loadPageContent("home.html");
+            loadPageContent("/pages/home.html");
         } else if (path === "/about") {
             // Strona "O mnie"
-            loadPageContent("/pages/about.html");
+            loadPageContent("pages/about.html");
         } else if (path === "/lastest") {
             // Strona "ostatnie projekty"
             loadPageContent("pages/lastest.html");
