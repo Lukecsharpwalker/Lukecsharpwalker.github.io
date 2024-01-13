@@ -1,275 +1,427 @@
 <!DOCTYPE html>
 <html lang="pl">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Barbara Grygorcewicz</title>
-    <link rel="stylesheet" href="assets/style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    
-  </head>
-  <body>
-    <nav id="navbar" class="navbar sticky-top shadow-lg navbar-expand-lg nav-bar">
-        <div class="container-fluid">
-          <a class="navbar-brand text-white" href=#start><b>Barbara Grygorcewicz</b></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#omnie">O Mnie</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#misja">Misja</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#zgadzasz">Zgadzasz się ze mną?</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#kontakt">Kontakt</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-      <section id="start">
-        <div class="d-flex justify-content-center w-100">
-            <img class="img-fluid" src="assets/vote.jpg" width="1044" height="702">
-        </div>
-      </section>
-      <section class="mt-5 pt-3" id="omnie">
-        <h1 class="d-flex justify-content-center">O Mnie</h1>
 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SimpleBlog - Julia Walker's Personal Blog</title>
+
+    <!--
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+
+<body class="light-theme">
+
+    <!--
+    - #HEADER
+  -->
+
+    <header>
 
         <div class="container">
-          <div class="row justify-content-md-center">
-            <div class="col-lg-12 col-md-12 col-sm-12 d-flex flex-column align-items-center mt-3">
-              <img src="assets/person-dress-solid.svg" class="about-icons">
-              <h2 class="mt-2">Życiorys</h2>
-              <p class="about-txt">
-                Urodziłam się i dorastałam w Koszalinie. Od najmłodszych lat czułam, że moja pasja leży w pomaganiu innym i interesowaniu się sprawami społecznymi. To właśnie te pragnienia skierowały mnie ku aktywnemu udziałowi w lokalnych komisjach społecznych i stały się początkiem mojej drogi w polityce. Moje zaangażowanie w sprawy społeczności koszalińskiej zaowocowało wyborem na radną naszego miasta.
-                Jestem dumna z wielu inicjatyw, które wprowadziłam, ale jedną z najważniejszych jest autorski program "Zdrowo jesz, lepiej żyjesz". Głównie skierowany do młodzieży, miał na celu propagowanie zdrowego stylu życia i zdrowego odżywiania. Szczególnie bliskie mojemu sercu jest powiązane z tym konkursem wydarzenie - "Master Szefik", które zachęcało młodych ludzi do odkrywania świata zdrowej kuchni.
-              </p>
-            </div>
-            <div class="col-lg-12 col-md-12 col-sm-12 d-flex flex-column align-items-center mt-3">
-              <img src="assets/building-solid.svg" class="about-icons">
-              <h2 class="mt-2">Praca</h2>
-              <p class="about-txt">
-                Moja kariera zawodowa jest wieloaspektowa i pełna wyzwań. W początkowych latach mojej kariery zawodowej pracowałam jako nauczycielka geografii, co pozwoliło mi zrozumieć potrzeby edukacyjne młodych ludzi oraz przekazać im moją pasję do tej dziedziny.
 
-                Następnie postanowiłam podjąć wyzwanie prowadzenia własnej działalności gospodarczej. Zaangażowałam się w budowaniu sieci dystrybucji kosmetyków firmy Oriflame. Było to niewątpliwie wyzwanie, ale jednocześnie doskonała szkoła biznesu, komunikacji i zarządzania. Moje doświadczenie w budowaniu sieci konsultantów w Oriflame nauczyło mnie, jak ważne jest budowanie relacji, wsparcie i rozwój indywidualnych talentów.
+            <nav class="navbar">
 
-                Dodać do tego mogę doświadczenie prowadzenia salonu masażu Rolletic, gdzie dbałość o dobro klienta i jakość świadczonych usług były na pierwszym miejscu. Aktualnie pracuję w Urzędzie Marszałkowskim, gdzie każdego dnia staram się przekładać moje dotychczasowe doświadczenia na rzeczywiste działania na rzecz mieszkańców.
-              </p>
-            </div>
-            <div class="col-lg-12 col-md-12 col-sm-12 d-flex flex-column align-items-center mt-3">
-              <img src="assets/graduation-cap-solid.svg" class="about-icons">
-              <h2 class="mt-2">Edukacja</h2>
-              <p class="about-txt">
-                Moja edukacyjna ścieżka rozpoczęła się na Uniwersytecie Adama Mickiewicza w Poznaniu, gdzie z pasją studiowałam Geomorfologię i Paleogeografię Czwartorzędu. Choć ta dziedzina może wydawać się odległa od polityki, nauczyła mnie analizowania skomplikowanych zagadnień i poszukiwania rozwiązań opartych na faktach i badaniach.
-                Po studiach postanowiłam dalej rozwijać swoje umiejętności, zwłaszcza te, które byłyby kluczowe w mojej karierze. Zdecydowałam się na udział w Akademii dla Managerów. To doświadczenie pozwoliło mi zdobyć cenne umiejętności w zakresie zarządzania i komunikacji - kompetencje, które okazały się nieocenione w mojej politycznej i społecznej działalności.
-              </p>
-            </div>
-          </div>
-          <div class="row row justify-content-md-center">
-            <div class="col-lg-12 col-md-12 col-sm-12 d-flex flex-column align-items-center mt-3">
-              <img src="assets/trophy-solid.svg" class="about-icons">
-              <h2 class="mt-2">Osiągnięcia</h2>
-              <p class="about-txt">
-                W ciągu mojej kariery politycznej miałam zaszczyt wprowadzić wiele kluczowych inicjatyw dla mieszkańców Koszalina. Byłam dumną inicjatorką wprowadzenia karty dużej rodziny, która przynosi liczne korzyści dla wielodzietnych rodzin w naszym mieście. Moje zaangażowanie w edukację i zdrowie doprowadziło do stworzenia programu "Zdrowo jesz, lepiej żyjesz", który zdobył uznanie na szczeblu krajowym, o czym wspomniał w Sejmie wiceminister Edukacji, Przemysław Krzyżanowski.
-                Wierzę, że edukacja o zdrowym stylu życia powinna zaczynać się od najmłodszych lat, dlatego wprowadziłam do koszalińskich szkół lekcje z dietetyczkami. Myśląc o naszych seniorach, zorganizowałam coroczny bal seniora oraz brałam udział w wprowadzeniu Karty Seniora. Dbałość o najbardziej potrzebujących zaowocowała także uruchomieniem ogrzewalni dla bezdomnych pozostających pod wpływem alkoholu.
-                Moje zaangażowanie w sprawy społeczności lokalnej zaowocowało przewodniczeniem społecznej komisji mieszkaniowej i organizacją balu dla dzieci z rodzin posiadających kartę dużej rodziny. Pełniłam funkcję wiceprzewodniczącej Rady Miejskiej przez dwie kadencje, a także jestem członkinią zarządu regionu Platformy Obywatelskiej w zachodniopomorskim. Aktualnie jestem przewodnicząca społecznej rady szpitala specjalistycznego zespołu gruźlicy i chorób płuc.
-              </p>
-            </div>
-            <div class="col-lg-12 col-md-12 col-sm-12 d-flex flex-column align-items-center mt-3">
-              <img src="assets/heart-solid.svg" class="about-icons">
-              <h2 class="mt-2">Zainteresowania</h2>
-              <p class="about-txt">
-                Mimo intensywnej kariery zawodowej i politycznej, rodzina zawsze była dla mnie priorytetem. Od 35 lat jestem szczęśliwie zamężna, a moja córka i syn, których wychowywanie dało mi wiele radości i nauczyło cierpliwości, są teraz dorosłymi ludźmi, z których jestem niezmiernie dumna.
+                <a href="#">
+                    <img src="./assets/images/logo-light.svg" alt="logo" width="150" class="logo-light">
+                    <img src="./assets/images/logo-dark.svg" alt="logo" width="150" class="logo-dark">
+                </a>
 
-                Poza obowiązkami zawodowymi, jestem pasjonatką ekologii i uwielbiam spędzać czas na hodowli kwiatów doniczkowych. Te rośliny są dla mnie nie tylko piękną dekoracją, ale też sposobem na relaks i odprężenie. A w moim domu królują także dwa psy rasy york, które dodają energii każdego dnia.
+                <div class="btn-group">
 
-                Jednak moje zaangażowanie społeczne nie kończy się na działalności politycznej. Z głębokim przejęciem obserwowałam sytuację uchodźców z Ukrainy i postanowiłam aktywnie im pomagać. Uważam, że każdy z nas ma obowiązek wyciągać pomocną dłoń wobec tych, którzy są w potrzebie.
-              </p>
-            </div>
-          </div>
+                    <button class="theme-btn theme-btn-mobile light">
+                        <ion-icon name="moon" class="moon"></ion-icon>
+                        <ion-icon name="sunny" class="sun"></ion-icon>
+                    </button>
+
+                    <button class="nav-menu-btn">
+                        <ion-icon name="menu-outline"></ion-icon>
+                    </button>
+
+                </div>
+
+                <div class="flex-wrapper">
+
+                    <ul class="desktop-nav">
+
+                        <li>
+                            <a href="/assets/pages/about.html" class="nav-link">About</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="nav-link">2</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="nav-link">3</a>
+                        </li>
+
+                    </ul>
+
+                    <button class="theme-btn theme-btn-desktop light">
+                        <ion-icon name="moon" class="moon"></ion-icon>
+                        <ion-icon name="sunny" class="sun"></ion-icon>
+                    </button>
+
+                </div>
+
+                <div class="mobile-nav">
+
+                    <button class="nav-close-btn">
+                        <ion-icon name="close-outline"></ion-icon>
+                    </button>
+
+                    <div class="wrapper">
+
+                        <p class="h3 nav-title">Main Menu</p>
+
+                        <ul>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">1</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">2</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">3</a>
+                            </li>
+                        </ul>
+
+                    </div>
+
+                    <div>
+
+                        <p class="h3 nav-title">Second menu</p>
+
+                        <ul>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">1.1</a>
+                            </li>
+                        </ul>
+
+                    </div>
+
+                </div>
+
+            </nav>
+
         </div>
-      </section>
-      <section class="mt-5 pt-3" id=misja>
-        <h1 class="d-flex justify-content-center">Misja</h1>
-        <p class="leader">Oto moje postulaty wyborcze</p>
-        <div class="demo-card-wrapper">
-          <div class="demo-card demo-card--step1">
-            <div class="head">
-              <div class="number-box">
-                <span>01</span>
-              </div>
-              <div class="d-flex flex-column my-2">
-                <h2>Każdy ma prawo do
-                </h2>
-                <h3>Decydowania o swoim ciele</h3>
-              </div>
+
+    </header>
+
+
+
+
+
+    <main>
+
+        <!--
+      - #HERO SECTION
+    -->
+
+        <div class="hero">
+
+            <div class="container">
+
+                <div class="left">
+
+                    <h1 class="h1">
+                        H1 - left
+                    </h1>
+
+                </div>
+
+                <div class="right">
+
+                    <h1 class="h1">
+                        H1 - right
+                    </h1>
+
+                </div>
+
             </div>
-            <div class="body">
-              <p> Uważam, że każdy powinien mieć prawo do kształtowania własnego wizerunku oraz dostępu do procedury in vitro. Popieram dostępność tabletek "dzień po" bez konieczności recepty, gwarantowane znieczulenie okołoporodowe, a także możliwość przerywania ciąży do 12 tygodnia oraz w sytuacjach, gdy stwierdzono wadę letalną płodu.</p>
-              <div class="facebook-responsive">
-                <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FGrygorcewiczBarbara%2Fvideos%2F272196799049590%2F&show_text=false&width=560&t=0" width="560" height="314" style="border:none;overflow:auto" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
-              </div>
-            </div>
-          </div>
-      
-          <div class="demo-card demo-card--step2">
-            <div class="head">
-              <div class="number-box">
-                <span>02</span>
-              </div>
-              <div class="d-flex flex-column my-2">
-                <h2>
-                  Każdy ma prawo do
-                </h2>
-                <h3>Godnej starości</h3> 
-              </div>
-            </div>
-            <div class="body">
-              <p>Uważam, że każdy zasługuje na pomoc i bezpieczeństwo, gwarantowany dostęp do Domów Pomocy Społecznej, bezpłatnych leków, specjalistycznej opieki medycznej oraz wsparcie w zakresie geriatrii.</p>
-              <div class="facebook-responsive">
-                <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FGrygorcewiczBarbara%2Fvideos%2F261875979575216%2F&show_text=false&width=560&t=0" width="560" height="314" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
-              </div>
-            </div>
-          </div>
-      
-          <div class="demo-card demo-card--step3">
-            <div class="head">
-              <div class="number-box">
-                <span>03</span>
-              </div>
-              <div class="d-flex flex-column my-2">
-                <h2>
-                    Każdy ma prawo do
-                  </h2>
-                  <h3>
-                    Rzetelnej edukacji
-                  </h3>
-              </div>
-            </div>
-            <div class="body">
-              <p>
-                Moim celem jest stworzenie szkoły opartej na prawdzie, wolnej od ideologii, promującej współpracę zamiast rywalizacji i dającą nauczycielom większą swobodę. Podkreślam znaczenie edukacji klimatycznej, ekologicznej oraz lepszego kształcenia obywatelskiego w dynamicznie zmieniającym się świecie.
-              </p>
-              <div class="facebook-responsive">
-                <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FGrygorcewiczBarbara%2Fvideos%2F6918984868152131%2F&show_text=false&width=560&t=0" width="560" height="314" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
-              </div>
-            </div>
-          </div>
-      
-          <div class="demo-card demo-card--step4">
-            <div class="head">
-              <div class="number-box">
-                <span>04</span>
-              </div>
-              <div class="d-flex flex-column my-2">
-                <h2>
-                    Każdy ma prawo do
-                  </h2>
-                  <h3>
-                    Uczciwego systemu podatkowego
-                  </h3>
-              </div>
-            </div>
-            <div class="body">
-              <p>
-                Dążę do maksymalnego uproszczenia i stabilizacji systemu podatkowego, ujednolicenia stawek VAT, podniesienia kwoty wolnej od podatku oraz obniżenia składki zdrowotnej ZUS dla przedsiębiorców. Ponadto, proponuję wprowadzenie świadczenia urlopowego dla przedsiębiorców.
-              </p>
-              <div class="facebook-responsive">
-                <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FGrygorcewiczBarbara%2Fvideos%2F282536797955211%2F&show_text=false&width=560&t=0" width="560" height="314" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
-              </div>
-            </div>
-          </div>
-      
-          <div class="demo-card demo-card--step5">
-            <div class="head">
-              <div class="number-box">
-                <span>05</span>
-              </div>
-              <div class="d-flex flex-column my-2">
-                <h2>
-                  Każdy ma prawo do
-                </h2>
-                <h3>
-                  Równego dostępu do usług publicznych
-                </h3> 
-              </div>
-            </div>
-            <div class="body">
-              <p>Dążę do zapewnienia szybkiego dostępu do lekarzy pierwszego kontaktu oraz specjalistów. Chcę zlikwidować wykluczenie komunikacyjne, gwarantując regularne kursy autobusowe w kadżdej wsi. Popieram ideę zapewnienia żłobka w każdej gminie oraz miejsc w przedszkolach dla wszystkich dzieci. Uważam, że należy zlikwidować bariery utrudniające dostęp do placówek publicznych osobom z niepełnosprawnościami. Ponadto, każdy powinien mieć dostęp do nielimitowanego, szybkiego internetu.</p>
-              <div class="facebook-responsive">
-                <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FGrygorcewiczBarbara%2Fvideos%2F2710351399118001%2F&show_text=false&width=560&t=0" width="560" height="314" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
-              </div>
-            </div>
-          </div>
+
         </div>
-        <div class="d-flex justify-content-center position-relative">
-          <img class="img-fluid" src="assets/polska.png" width="1044" height="702">
-          <p class="normal"> Normalność </p>
-      </div>
-      <div class="d-flex flex-column align-items-center">
-        <p class="kazdy font-600">Każdy ma prawa do normalności w naszym kraju!</p>
-        <p class="zgadzasz">Zgadzasz się ze mną?</p>
-      </div>
-      </section>
-      <section class="my-5 pt-3" id="zgadzasz">
-        <div class="d-flex flex-column align-items-center">
-          <p class="jesli font-600">Jeśli się ze mną zgadzasz</p>
-          <p class="zaglosuj">Zagłosuj!</p>
-          <p class="okreg font-600">Okręg 40</p>
-          <p class="okreg font-600">Lista nr 6</p>
-          <div class="d-flex flex-row align-items-center justify-content-center w-100">
-            <span class="three">3</span>
-            <div class="d-flex flex-column">
-              <span class="barbara">Barbara</span>
-              <span class="grygorcewicz">Grygorcewicz</span>
+
+
+
+
+
+        <div class="main">
+
+            <div class="container">
+
+                <!--
+          - BLOG SECTION
+        -->
+
+                <div class="blog">
+
+                    <h2 class="h2">Latest Bfszflog Post</h2>
+
+                    <div class="blog-card-group">
+
+                        <div class="blog-card">
+
+                            <div class="blog-card-banner">
+                                <img src="./assets/images/blog-1.png"
+                                    alt="Building microservices with Dropwizard, MongoDB & Docker" width="250"
+                                    class="blog-banner-img">
+                            </div>
+
+                            <div class="blog-content-wrapper">
+
+                                <button class="blog-topic text-tiny">Database</button>
+
+                                <h3>
+                                    <a href="#" class="h3">
+                                        Building microservices with Dropwizard, MongoDB & Docker
+                                    </a>
+                                </h3>
+
+                                <p class="blog-text">
+                                    This NoSQL database oriented to documents (by documents like JSON) combines some of
+                                    the features from
+                                    relational
+                                    databases, easy to use and the multi-platform is the best option for scale up and
+                                    have fault
+                                    tolerance, load balancing,
+                                    map reduce, etc.
+                                </p>
+
+                                <div class="wrapper-flex">
+
+                                    <div class="profile-wrapper">
+                                        <img src="./assets/images/author.png" alt="Julia Walker" width="50">
+                                    </div>
+
+                                    <div class="wrapper">
+                                        <a href="#" class="h4">Julia Walker</a>
+
+                                        <p class="text-sm">
+                                            <time datetime="2022-01-17">Jan 17, 2022</time>
+                                            <span class="separator"></span>
+                                            <ion-icon name="time-outline"></ion-icon>
+                                            <time datetime="PT3M">3 min</time>
+                                        </p>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+                    <button class="btn load-more">Load More</button>
+
+                </div>
+
+
+
+
+
+                <!--
+          - ASIDE
+        -->
+
+                <div class="aside">
+
+                    <div class="topics">
+
+                        <h2 class="h2">Topics</h2>
+
+                        <a href="#" class="topic-btn">
+                            <div class="icon-box">
+                                <ion-icon name="server-outline"></ion-icon>
+                            </div>
+
+                            <p>Database</p>
+                        </a>
+
+                        <a href="#" class="topic-btn">
+                            <div class="icon-box">
+                                <ion-icon name="accessibility-outline"></ion-icon>
+                            </div>
+
+                            <p>Accessibility</p>
+                        </a>
+
+                        <a href="#" class="topic-btn">
+                            <div class="icon-box">
+                                <ion-icon name="rocket-outline"></ion-icon>
+                            </div>
+
+                            <p>Web Performance</p>
+                        </a>
+
+                    </div>
+
+                    <div class="tags">
+
+                        <h2 class="h2">Tags</h2>
+
+                        <div class="wrapper">
+
+                            <button class="hashtag">#mongodb</button>
+                            <button class="hashtag">#nodejs</button>
+                            <button class="hashtag">#a11y</button>
+                            <button class="hashtag">#mobility</button>
+                            <button class="hashtag">#inclusion</button>
+                            <button class="hashtag">#webperf</button>
+                            <button class="hashtag">#optimize</button>
+                            <button class="hashtag">#performance</button>
+
+                        </div>
+
+                    </div>
+
+                    <div class="contact">
+
+                        <h2 class="h2">Let's Talk</h2>
+
+                        <div class="wrapper">
+
+                            <p>
+                                Do you want to learn more about how I can help your company overcome problems? Let us
+                                have a
+                                conversation.
+                            </p>
+
+                            <ul class="social-link">
+
+                                <li>
+                                    <a href="#" class="icon-box discord">
+                                        <ion-icon name="logo-discord"></ion-icon>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#" class="icon-box twitter">
+                                        <ion-icon name="logo-twitter"></ion-icon>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#" class="icon-box facebook">
+                                        <ion-icon name="logo-facebook"></ion-icon>
+                                    </a>
+                                </li>
+
+                            </ul>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
             </div>
-          </div>
+
         </div>
-      </section>
-      <section class="pt-3" id="kontakt">
-          <div class="d-flex flex-column align-items-center">
-            <div class="img-contact-main-container">
-              <div class="img-contact-container">
-                <img class="img-fluid img-face img-contact" src="assets/face.jpg">
-              </div>
+
+    </main>
+
+
+
+
+
+    <!--
+    - #FOOTER
+  -->
+
+    <footer>
+
+        <div class="container">
+
+            <div class="wrapper">
+
+                <a href="#" class="footer-logo">
+                    <img src="./assets/images/logo-light.svg" alt="Logo" width="150" class="logo-light">
+                    <img src="./assets/images/logo-dark.svg" alt="Logo" width="150" class="logo-dark">
+                </a>
+
+                <p class="footer-text">
+                    loreal ipsum
+                </p>
+
             </div>
-              <p class="znajdziesz mt-4">Napisz do mnie!</p>
-              <div class="d-flex flex-column" id="socials">
-                <span>
-                  <a class="socials-txt" href="mailto:Basia.grygorcewicz@gmail.com">Basia.grygorcewicz@gmail.com</a>
-                </span>
-              </div>
-          </div>
-      </section>
-      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 mt-4 border-top">
-        <div class="col-md-4 d-flex align-items-center">
-          <span class="text-white desing font-100">Adono Design Studio</span>
+
+            <div class="wrapper">
+
+                <p class="footer-title">Quick Links</p>
+
+                <ul>
+
+                    <li>
+                        <a href="#" class="footer-link">1</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="footer-link">2</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="footer-link">3</a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+            <div class="wrapper">
+
+                <p class="footer-title">Legal</p>
+
+                <ul>
+
+                    <li>
+                        <a href="#" class="footer-link"> 1</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="footer-link">1</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="footer-link">1</a>
+                    </li>
+
+                </ul>
+
+            </div>
+
         </div>
-    
-        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-          <li class="ms-3">
-            <a href="https://www.tiktok.com/@barbara_grygorcewicz/">
-              <img class="img-fluid socials" src="assets/tiktok.svg">
-            </a>
-          <li class="ms-3">
-            <a href="https://www.instagram.com/barbaragrygorcewicz/">
-              <img class="img-fluid socials" src="assets/instagram.svg">
-            </a>
-          </li>
-          <li class="ms-3">
-            <a href="https://www.facebook.com/GrygorcewiczBarbara">
-              <img class="img-fluid socials" src="assets/facebook.svg">
-            </a>
-          </li>
-        </ul>
-      </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-  </body>
+
+        <p class="copyright">
+            &copy; Copyright 2024 <a href="#">Adono</a>
+        </p>
+
+    </footer>
+
+
+
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!--
+    - custom js link
+  -->
+    <script src="./assets/js/script.js"></script>
+    <script src="./assets/js/routing.js"></script>
+
+    <!--
+    - ionicon link
+  -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
 </html>
