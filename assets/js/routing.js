@@ -10,7 +10,7 @@ $(document).ready(function () {
             loadPageContent("/pages/home.html");
         } else if (path === "/about") {
             // Strona "O mnie"
-            loadPageContent("/Lukecsharpwalker.github.io/assets/pages/about.html");
+            loadPageContent("about.html");
         } else if (path === "/lastest") {
             // Strona "ostatnie projekty"
             loadPageContent("pages/lastest.html");
