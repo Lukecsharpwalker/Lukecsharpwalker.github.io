@@ -30,6 +30,14 @@ $(document).ready(function () {
         });
     }
 
+    // Obsłuż kliknięcie linka
+    $("a").on("click", function (event) {
+        event.preventDefault(); // Zapobiegaj domyślnej akcji przekierowania
+        var href = $(this).attr("href"); // Pobierz wartość atrybutu href
+        history.pushState(null, null, href); // Zmień adres URL bez przeładowywania strony
+        handleRoute(); // Wywołaj funkcję obsługującą adres URL
+    });
+
     // Obsłuż zmianę adresu URL
     $(window).on("popstate", handleRoute);
 
