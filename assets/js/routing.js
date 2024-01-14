@@ -52,7 +52,7 @@ $(document).ready(function () {
         });
 
         this.get('#/about', function () {
-            loadPageContent("about.html");
+            $('main').html('<h1>About Us</h1><p>We are a team of developers.</p>');
         });
 
         this.get('#/latest', function () {
