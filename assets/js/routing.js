@@ -52,7 +52,7 @@ $(document).ready(function () {
         });
 
         this.get('#/about/', function () {
-            loadPageContent("about.html");
+            loadPageContent("assets/pages/about.html");
         });
 
         this.get('#/latest', function () {
