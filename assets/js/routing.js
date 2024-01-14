@@ -51,7 +51,7 @@ $(document).ready(function () {
             $('main').html('<h1>Welcome to the Home Page</h1>');
         });
 
-        this.get('#/about', function () {
+        this.get('#about/', function () {
             $('main').html('<h1>About Us</h1><p>We are a team of developers.</p>');
         });
 
