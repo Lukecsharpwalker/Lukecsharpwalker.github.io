@@ -218,7 +218,6 @@ html {
 .container {
   margin-inline: auto;
   margin: auto;
-  /* fallback for margin-inline */
   padding: 0 15px;
 }
 
@@ -391,6 +390,8 @@ main {
   max-width: 100%;
   height: auto;
   background-color: var(--image-background);
+  display: flex;
+  justify-content: center;
 }
 
 .mid-nav li:nth-child(1) h2 {
@@ -403,6 +404,18 @@ main {
 
 .mid-nav li:nth-child(3) h2 {
   background-color: var(--third-color);
+}
+
+.mid-nav a:hover {
+  color: var(--accent);
+}
+
+.mid-nav li { 
+  height: 6.25rem;
+}
+
+.mid-nav a {
+  color: var(--white);
 }
 
 /*-----------------------------------*\ 
