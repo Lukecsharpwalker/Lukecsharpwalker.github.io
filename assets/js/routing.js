@@ -48,19 +48,19 @@
 $(document).ready(function () {
     var app = $.sammy(function () {
         this.get('#/', function () {
-            $('main').html('<h1>Welcome to the Home Page</h1>');
+            loadPageContent("assets/pages/home.html");
         });
 
         this.get('#/about/', function () {
             loadPageContent("assets/pages/about.html");
         });
 
-        this.get('#/latest', function () {
-            $('main').html('<h1>Latest Projects</h1><ul><li>Project 1</li><li>Project 2</li><li>Project 3</li></ul>');
+        this.get('#/news', function () {
+            loadPageContent("assets/pages/news.html");
         });
 
         this.get('#/contact', function () {
-            $('main').html('<h1>Contact Us</h1><p>Email: info@example.com</p><p>Phone: 123-456-7890</p>');
+            loadPageContent("assets/pages/contact.html");
         });
     });
 
@@ -68,8 +68,9 @@ $(document).ready(function () {
 });
 
 //  Funkcja do ładowania zawartości strony z pliku HTML
-    function loadPageContent(page) {
-        $.get(page, function (data) {
-            $("main").html(data);
-        });
-    }
+function loadPageContent(page) {
+    $.get(page, function (data) {
+      var container = $("<div>").addClass("container").html(data);
+      $("main").html(container);
+    });
+  }

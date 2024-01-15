@@ -28,10 +28,11 @@
 
                 <div class="btn-group">
 
-                    <button class="theme-btn theme-btn-mobile light">
+                    <!-- change to dark mode mobile -->
+                    <!-- <button class="theme-btn theme-btn-mobile light">
                         <ion-icon name="moon" class="moon"></ion-icon>
                         <ion-icon name="sunny" class="sun"></ion-icon>
-                    </button>
+                    </button> -->
 
                     <button class="nav-menu-btn">
                         <ion-icon name="menu-outline"></ion-icon>
@@ -52,15 +53,16 @@
                         </li>
 
                         <li>
-                            <a href="#/contact/" class="nav-link">Konat</a>
+                            <a href="#/contact/" class="nav-link">Kontant</a>
                         </li>
 
                     </ul>
 
-                    <button class="theme-btn theme-btn-desktop light">
+                    <!-- change to dark mode -->
+                    <!-- <button class="theme-btn theme-btn-desktop light">
                         <ion-icon name="moon" class="moon"></ion-icon>
                         <ion-icon name="sunny" class="sun"></ion-icon>
-                    </button>
+                    </button> -->
 
                 </div>
 
@@ -72,31 +74,19 @@
 
                     <div class="wrapper">
 
-                        <p class="h3 nav-title">Main Menu</p>
+                        <p class="h3 nav-title">Menu</p>
 
                         <ul>
-                            <li class="nav-item">
-                                <a href="#" class="nav-link">1</a>
+                            <li>
+                                <a href="#/about/" class="nav-link">O Mnie</a>
                             </li>
 
-                            <li class="nav-item">
-                                <a href="#" class="nav-link">2</a>
+                            <li>
+                                <a href="#/news/" class="nav-link">Najnowsze</a>
                             </li>
 
-                            <li class="nav-item">
-                                <a href="#" class="nav-link">3</a>
-                            </li>
-                        </ul>
-
-                    </div>
-
-                    <div>
-
-                        <p class="h3 nav-title">Second menu</p>
-
-                        <ul>
-                            <li class="nav-item">
-                                <a href="#" class="nav-link">1.1</a>
+                            <li>
+                                <a href="#/contact/" class="nav-link">Konat</a>
                             </li>
                         </ul>
 
@@ -111,7 +101,6 @@
     </header>
 
     <main>
-
     </main>
 
     <!--
@@ -192,20 +181,22 @@
 
     <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/sammy.js/0.7.2/sammy.min.js" integrity="sha512-c0j0G78ga6fKDwfaMu3lvxpg0CY0C/UCdtPCkF5xRmgE5p5l0qg5TH+amN1PWNVKnGqS4YJZZeUc5abtPPWlIQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sammy.js/0.7.2/sammy.min.js"
+        integrity="sha512-c0j0G78ga6fKDwfaMu3lvxpg0CY0C/UCdtPCkF5xRmgE5p5l0qg5TH+amN1PWNVKnGqS4YJZZeUc5abtPPWlIQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <!--
     - custom js link
   -->
-  <script>
-    jQuery.fn.extend({
-    live: function (event, callback) {
-       if (this.selector) {
-            jQuery(document).on(event, this.selector, callback);
-        }
-        return this;
-    }
-});
-  </script>
+    <script>
+        jQuery.fn.extend({
+            live: function (event, callback) {
+                if (this.selector) {
+                    jQuery(document).on(event, this.selector, callback);
+                }
+                return this;
+            }
+        });
+    </script>
     <script src="./assets/js/script.js"></script>
     <script src="./assets/js/routing.js"></script>
 

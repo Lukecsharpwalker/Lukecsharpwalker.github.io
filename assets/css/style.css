@@ -73,7 +73,8 @@
      */
   
     --py: 5rem;
-  
+    
+    --py-for-navbars: 8rem;
   }
   
   
@@ -220,11 +221,14 @@
   header .flex-wrapper { display: none; }
   
   .navbar {
-    display:         flex;
-    justify-content: space-between;
-    align-items:     center;
-    gap: 15px;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    align-items: end;
     padding: 15px 0;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    background-color: var(--background-primary);
   }
 
   header h2 { color: var(--accent);}
@@ -313,9 +317,9 @@
     #MAIN SECTION
   \*-----------------------------------*/
   
-  .main {
-    background: var(--background-secondary);
-    padding: var(--py) 0;
+  main {
+    background: var(--background-primary);
+    padding: var(--py-for-navbars) 0;
   }
   
 
@@ -514,7 +518,7 @@
     }
   
     .desktop-nav .nav-link {
-      font-weight: 700;
+      font-weight: 500;
     }
   
     .theme-btn-desktop {
