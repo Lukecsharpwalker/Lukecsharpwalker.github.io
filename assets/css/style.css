@@ -321,8 +321,15 @@
     background: var(--background-primary);
     padding: var(--py-for-navbars) 0;
   }
-  
 
+  /*-----------------------------------*\ 
+    #MAIN SECTION - Home section
+  \*-----------------------------------*/
+  
+  .image-container {
+    max-width: 100%;
+    height: auto;
+  }
   
   /*-----------------------------------*\ 
     #FOOTER
