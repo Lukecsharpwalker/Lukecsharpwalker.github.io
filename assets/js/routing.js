@@ -68,9 +68,8 @@ $(document).ready(function () {
 });
 
 //  Funkcja do ładowania zawartości strony z pliku HTML
-function loadPageContent(page) {
-    $.get(page, function (data) {
-      var container = $("<div>").addClass("container").html(data);
-      $("main").html(container);
-    });
-  }
+    function loadPageContent(page) {
+        $.get(page, function (data) {
+            $("main").html(data);
+        });
+    }
