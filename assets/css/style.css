@@ -418,6 +418,8 @@ main {
 
 .mid-nav h2{ 
   height: 6.25rem;
+  display: flex;
+  align-items: center;
 }
 
 .mid-nav a {
