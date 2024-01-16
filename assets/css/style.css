@@ -412,8 +412,8 @@ main {
   background-color: var(--third-color);
 }
 
-.mid-nav a:hover {
-  color: var(--accent);
+.mid-nac li:hover h2 {
+  background-color: var(--accent);
 }
 
 .mid-nav h2{ 
@@ -423,6 +423,10 @@ main {
 }
 
 .mid-nav a {
+  color: var(--white);
+}
+
+.mid-nav a:hover {
   color: var(--white);
 }
 
