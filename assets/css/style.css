@@ -208,6 +208,10 @@ html {
   font-size: var(--fs-5);
 }
 
+.left-right-responsive-margins {
+  left: 20%;
+  right: 20%;
+}
 
 
 
@@ -261,17 +265,16 @@ header .flex-wrapper {
 }
 
 .navbar {
-  left: 0;
   display: flex;
   flex-direction: row;
   align-items: flex-end;
-  justify-content: space-evenly;
   justify-items: center;
   padding: 15px 0;
   position: fixed;
   top: 0px;
   width: 100%;
   background-color: var(--background-primary);
+  gap: 10rem; 
 }
 
 header h2 {
