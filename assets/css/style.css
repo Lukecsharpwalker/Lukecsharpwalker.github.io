@@ -209,8 +209,8 @@ html {
 }
 
 .left-right-responsive-margins {
-  left: 20%;
-  right: 20%;
+  left: 10%;
+  right: 10%;
 }
 
 
@@ -423,6 +423,7 @@ main {
 }
 
 .mid-nav a {
+  position: relative;
   color: var(--white);
 }
 
@@ -458,7 +459,6 @@ footer .wrapper {
   max-width: 300px;
   margin-inline: auto;
   margin: auto;
-  /* fallback for margin-inline */
 }
 
 .footer-title {
