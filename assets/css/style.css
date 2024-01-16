@@ -289,6 +289,10 @@ header a:hover {
   color: var(--third-color);
 }
 
+header a {
+  position: relative;
+}
+
 .logo-light,
 .logo-dark {
   display: none;
