@@ -274,7 +274,7 @@ header .flex-wrapper {
   top: 0px;
   width: 100%;
   background-color: var(--background-primary);
-  gap: 10rem; 
+  gap: 24rem; 
 }
 
 header h2 {
