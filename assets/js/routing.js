@@ -55,11 +55,11 @@ $(document).ready(function () {
             loadPageContent("assets/pages/about.html");
         });
 
-        this.get('#/news', function () {
+        this.get('#/news/', function () {
             loadPageContent("assets/pages/news.html");
         });
 
-        this.get('#/contact', function () {
+        this.get('#/contact/', function () {
             loadPageContent("assets/pages/contact.html");
         });
     });
