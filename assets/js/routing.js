@@ -91,8 +91,10 @@ document.addEventListener("DOMContentLoaded", function() {
     app.init('#/home/'); // Set the default route to '#/home/'
 
     function loadPageContent(page) {
-        // Code to load page content...
-    }
+                $.get(page, function (data) {
+                    $("main").empty();
+                    $("main").html(data);
+                });
 });
 
 function Router() {
