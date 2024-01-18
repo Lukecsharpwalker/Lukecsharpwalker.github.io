@@ -94,7 +94,7 @@ document.addEventListener("DOMContentLoaded", function () {
         loadPageContent("assets/pages/contact.html");
     });
 
-    app.init('#/'); // Set the default route to '#/home/'
+    app.init('#/home/'); // Set the default route to '#/home/'
 
     function loadPageContent(page) {
         var xhr = new XMLHttpRequest();
