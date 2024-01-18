@@ -75,25 +75,31 @@
 //         });
 //     }
 
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
     var app = new Router();
 
-    app.route('#/home/', function() {
+    app.route('#/home/', function () {
         loadPageContent("assets/pages/home.html");
     });
 
-    app.route('#/about/', function() {
+    app.route('#/about/', function () {
         loadPageContent("assets/pages/about.html");
     });
 
-    // Define other routes...
+    app.route('#/news/', function () {
+        loadPageContent("assets/pages/news.html");
+    });
 
-    app.init('#/home/'); // Set the default route to '#/home/'
+    app.route('#/contact/', function () {
+        loadPageContent("assets/pages/contact.html");
+    });
+
+    app.init('#/'); // Set the default route to '#/home/'
 
     function loadPageContent(page) {
         var xhr = new XMLHttpRequest();
         xhr.open("GET", page, true);
-        xhr.onreadystatechange = function() {
+        xhr.onreadystatechange = function () {
             if (xhr.readyState === 4 && xhr.status === 200) {
                 var mainElement = document.querySelector("main");
                 mainElement.innerHTML = xhr.responseText;
@@ -106,11 +112,11 @@ document.addEventListener("DOMContentLoaded", function() {
 function Router() {
     this.routes = {};
 
-    this.route = function(path, callback) {
+    this.route = function (path, callback) {
         this.routes[path] = callback;
     };
 
-    this.init = function(defaultRoute) {
+    this.init = function (defaultRoute) {
         var self = this;
         function handleRoute() {
             var currentPath = window.location.hash.slice(1);
