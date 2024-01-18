@@ -397,7 +397,8 @@ header .btn-group {
 
 main {
   background: var(--background-primary);
-  padding: var(--py-for-navbars) 0;
+  padding-top: var(--py-for-navbars);
+  padding-bottom: 20px;
 }
 
 /*-----------------------------------*\ 
@@ -415,6 +416,7 @@ main {
   width: 100%;
   height: auto;
   object-fit: cover;
+  max-width: 960px;
 }
 
 .mid-nav li:nth-child(1) h2 {
