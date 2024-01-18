@@ -11,7 +11,7 @@ const navToggleFunc = function () { nav.classList.toggle('active'); }
 
 navMenuBtn.addEventListener('click', navToggleFunc);
 navCloseBtn.addEventListener('click', navToggleFunc);
- 
+
 
 
 // theme toggle variables
