@@ -91,10 +91,17 @@ document.addEventListener("DOMContentLoaded", function() {
     app.init('#/home/'); // Set the default route to '#/home/'
 
     function loadPageContent(page) {
-                $.get(page, function (data) {
-                    $("main").empty();
-                    $("main").html(data);
-                })};
+        var xhr = new XMLHttpRequest();
+        xhr.open("GET", page, true);
+        xhr.onreadystatechange = function() {
+            if (xhr.readyState === 4 && xhr.status === 200) {
+                var mainElement = document.querySelector("main");
+                mainElement.innerHTML = xhr.responseText;
+            }
+        };
+        xhr.send();
+    }
+});
 
 function Router() {
     this.routes = {};
