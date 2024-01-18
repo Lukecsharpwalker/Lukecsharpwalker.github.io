@@ -94,8 +94,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 $.get(page, function (data) {
                     $("main").empty();
                     $("main").html(data);
-                });
-});
+                })};
 
 function Router() {
     this.routes = {};
