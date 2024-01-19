@@ -463,6 +463,10 @@ footer h3 {
   position: relative;
 }
 
+footer a {
+  color: var(--second-color);
+}
+
 footer div {
   display: flex;
   gap: 15px;
