@@ -464,11 +464,12 @@ footer h3 {
 }
 
 footer a {
-  color: var(--second-color);
+  color: var(--accent);
 }
 
 footer a:hover {
   color: var(--second-color);
+  text-decoration: underline;
 }
 
 footer div {
@@ -486,16 +487,8 @@ footer div {
 }
 
 .copyright a {
-  color: var(--accent);
   font-weight: 500;
 }
-
-.copyright a:hover {
-  text-decoration: underline;
-}
-
-
-
 
 
 /*-----------------------------------*\ 
