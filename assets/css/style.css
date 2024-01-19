@@ -291,6 +291,10 @@ header a:hover {
   text-decoration: underline;
 }
 
+header h2:hover {
+  color: var(--second-color);
+}
+
 header a {
   position: relative;
 }
