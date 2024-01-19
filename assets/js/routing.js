@@ -1,25 +1,4 @@
-// $(document).ready(function () {
-//     var app = $.sammy(function () {
-//         this.get('#/home/', function () {
-//             loadPageContent("assets/pages/home.html");
-//         });
-
-//         this.get('#/about/', function () {
-//             loadPageContent("assets/pages/about.html");
-//         });
-
-//         this.get('#/news/', function () {
-//             loadPageContent("assets/pages/news.html");
-//         });
-
-//         this.get('#/contact/', function () {
-//             loadPageContent("assets/pages/contact.html");
-//         });
-//     });
-
-//     app.run('#/');
-// });
-
+// Load pages into main content area
 document.addEventListener("DOMContentLoaded", function() {
     var routes = {
         "#/home/": "assets/pages/home.html",
@@ -50,11 +29,3 @@ document.addEventListener("DOMContentLoaded", function() {
     window.addEventListener("hashchange", handleRoute);
     handleRoute();
 });
-
-// //  Funkcja do ładowania zawartości strony z pliku HTML
-//     function loadPageContent(page) {
-//         $.get(page, function (data) {
-//             $("main").empty();
-//             $("main").html(data);
-//         });
-//     }
