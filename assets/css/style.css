@@ -467,6 +467,10 @@ footer a {
   color: var(--second-color);
 }
 
+footer a:hover {
+  color: var(--second-color);
+}
+
 footer div {
   display: flex;
   gap: 15px;
