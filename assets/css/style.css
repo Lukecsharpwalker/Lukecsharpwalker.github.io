@@ -32,26 +32,6 @@
 
 }
 
-.dark-theme {
-
-  /**
-     * dark theme colors 
-     */
-
-  --background-primary: hsl(218, 23%, 23%);
-  --background-secondary: hsl(220, 26%, 14%);
-
-  --action-primary: hsl(216, 15%, 52%);
-  --action-secondary: hsl(218, 23%, 23%);
-
-  --foreground-primary: hsl(210, 38%, 95%);
-  --foreground-secondary: hsl(211, 25%, 84%);
-  --foreground-tertiary: hsl(214, 20%, 69%);
-
-  --accent: hsl(229, 76%, 66%);
-
-}
-
 :root {
 
   /**
@@ -213,6 +193,11 @@ html {
   right: 0;
 }
 
+.left-right-responsive-paddings {
+  padding-left: 2%;
+  padding-right: 0;
+}
+
 
 
 /*-----------------------------------*\ 
@@ -302,6 +287,10 @@ header a {
 header ul {
   position: relative;
   right: 70%;
+}
+
+.mobile-nav ul {
+  position: static;
 }
 
 .logo-light,
@@ -464,10 +453,6 @@ footer {
   background: var(--background-primary);
 }
 
-footer h3 {
-  position: relative;
-}
-
 footer a {
   color: var(--accent);
 }
@@ -509,6 +494,10 @@ footer div {
   .left-right-responsive-margins {
     left: 10%;
     right: 10%;
+  }
+  .left-right-responsive-paddings {
+    padding-left: 10%;
+    padding-right: 10%;
   }
 
   :root {
