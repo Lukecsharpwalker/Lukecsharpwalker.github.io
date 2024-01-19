@@ -51,10 +51,10 @@ document.addEventListener("DOMContentLoaded", function() {
     handleRoute();
 });
 
-//  Funkcja do ładowania zawartości strony z pliku HTML
-    function loadPageContent(page) {
-        $.get(page, function (data) {
-            $("main").empty();
-            $("main").html(data);
-        });
-    }
+// //  Funkcja do ładowania zawartości strony z pliku HTML
+//     function loadPageContent(page) {
+//         $.get(page, function (data) {
+//             $("main").empty();
+//             $("main").html(data);
+//         });
+//     }
