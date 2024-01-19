@@ -477,25 +477,8 @@ footer div {
   padding-bottom: 15px;
 }
 
-.footer-text {
-  color: var(--foreground-secondary);
-  max-width: 300px;
-  margin-inline: auto;
-  margin: auto;
-}
-
-.footer-title {
-  color: var(--foreground-primary);
-  font-weight: 700;
-  margin-bottom: 0.4rem;
-}
-
-.footer-link:hover {
-  color: var(--accent);
-}
-
 .copyright {
-  color: var(--foreground-secondary);
+  color: var(--second-color);
   font-size: var(--fs-4);
   text-align: center;
   padding: 1rem;
