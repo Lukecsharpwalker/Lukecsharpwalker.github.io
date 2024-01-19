@@ -1,7 +1,7 @@
 $(document).ready(function () {
     var app = $.sammy(function () {
         this.get('#/home/', function () {
-            loadPageContent("index.html");
+            loadPageContent("assets/pages/home.html");
         });
 
         this.get('#/about/', function () {
