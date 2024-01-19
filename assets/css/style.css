@@ -433,6 +433,7 @@ main {
 
 .mid-nav li:hover h2 {
   background-color: var(--accent);
+  cursor: pointer;
 }
 
 .mid-nav h2 {
