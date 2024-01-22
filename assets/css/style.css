@@ -451,7 +451,6 @@ main {
 
 footer {
   background: var(--white);
-  border-top: 1px solid var(--third-color);
 }
 
 footer a {
@@ -474,6 +473,7 @@ footer div {
   font-size: var(--fs-4);
   text-align: center;
   padding: 1rem;
+  border-top: 1px solid var(--third-color);
 }
 
 .copyright a {
