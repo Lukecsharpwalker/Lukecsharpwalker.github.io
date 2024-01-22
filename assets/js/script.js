@@ -12,6 +12,6 @@ const navToggleFunc = function () { nav.classList.toggle('active'); }
 
 navMenuBtn.addEventListener('click', navToggleFunc);
 navCloseBtn.addEventListener('click', navToggleFunc);
-navAnchor.addEventListener('click', navToggleFunc);
+navAnchor.forEach(anchor => anchor.addEventListener('click', navToggleFunc));
 
 
