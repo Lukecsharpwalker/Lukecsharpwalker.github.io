@@ -4,7 +4,7 @@
 const nav = document.querySelector('.mobile-nav');
 const navMenuBtn = document.querySelector('.nav-menu-btn');
 const navCloseBtn = document.querySelector('.nav-close-btn');
-const navAnchor = document.querySelector('.nav-link-mobile');
+const navAnchor = document.querySelectorAll('.nav-link-mobile');
 
 
 // navToggle function
