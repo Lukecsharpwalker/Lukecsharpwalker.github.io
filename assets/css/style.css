@@ -104,7 +104,6 @@ button {
 html {
   font-family: "Inter", sans-serif;
   font-size: var(--fs-base);
-  /* base font-size (0.85rem = 13.6px) */
   line-height: 1.8;
 }
 
@@ -210,33 +209,6 @@ html {
   padding: 0 15px;
 }
 
-
-/*-----------------------------------*\ 
-    #Extra style for dark theme
-  \*-----------------------------------*/
-
-
-.dark-theme .blog-topic {
-  background: var(--action-primary);
-  color: var(--foreground-secondary);
-}
-
-.dark-theme .blog-topic:hover {
-  background: var(--foreground-primary);
-  color: var(--action-primary);
-}
-
-.dark-theme .load-more:hover {
-  color: var(--white);
-}
-
-.dark-theme .aside .h2 {
-  color: var(--foreground-primary);
-}
-
-
-
-
 /*-----------------------------------*\ 
     #HEADER
   \*-----------------------------------*/
@@ -258,9 +230,10 @@ header .flex-wrapper {
   padding: 15px 0;
   position: fixed;
   top: 0px;
-  width: 98%;
+  width: 100%;
   background-color: var(--background-primary);
   white-space: nowrap;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
 header h2 {
@@ -403,7 +376,7 @@ main {
   background-color: var(--image-background);
   display: flex;
   justify-content: center;
-  max-width: 100vw;
+  max-width: 100%;
   height: auto;
 }
 .image-container img {
