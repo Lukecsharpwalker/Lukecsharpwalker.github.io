@@ -392,6 +392,7 @@ header .btn-group {
 main {
   background: var(--background-primary);
   padding-top: var(--py-for-navbars);
+  padding-bottom: 20px;
 }
 
 /*-----------------------------------*\ 
@@ -567,10 +568,6 @@ footer div {
 
   .footer-text {
     margin: 0;
-  }
-  .footer-info {
-    border-top: var(--third-color) solid 1rem;
-    padding-top: 1rem;
   }
 
 }
