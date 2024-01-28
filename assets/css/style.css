@@ -482,6 +482,7 @@ footer div {
   flex-direction: row;
   justify-content: space-between;
   border-top: 1px solid var(--third-color);
+  gap: 30px;
 }
 
 #news .image-container {
