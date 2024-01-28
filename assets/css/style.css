@@ -454,7 +454,7 @@ footer div {
 
 .footer-info {
   padding-top: 20px;
-  border-top: black 1px solid;
+  border-top: var(--third-color) 1px solid;
 }
 
 /*-----------------------------------*\ 
@@ -481,6 +481,7 @@ footer div {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  border-top: 1px solid var(--third-color);
 }
 
 #news .image-container {
@@ -489,6 +490,9 @@ footer div {
 }
 #news img {
   width: 50%;
+}
+#news h1 {
+  padding-bottom: 20px;
 }
 
 /*-----------------------------------*\ 
