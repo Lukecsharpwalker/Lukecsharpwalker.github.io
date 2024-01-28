@@ -24,7 +24,7 @@
 
   --accent: rgb(41, 64, 168);
   --first-color: #0b0b0b;
-  --second-color: #121212;
+  --second-color: #1c1b1b;
   --third-color: #3d3d3d;
   
 
@@ -365,7 +365,6 @@ header .btn-group {
 main {
   background: var(--background-primary);
   padding-top: var(--py-for-navbars);
-  padding-bottom: 20px;
 }
 
 /*-----------------------------------*\ 
@@ -453,6 +452,10 @@ footer div {
   font-weight: 500;
 }
 
+.footer-info {
+  padding-top: 20px;
+  border-top: black 1px solid;
+}
 
 /*-----------------------------------*\ 
     #MEDIA QUERIES
