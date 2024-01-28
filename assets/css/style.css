@@ -505,6 +505,10 @@ footer div {
   object-fit: scale-down;
 }
 
+#news img:first-of-type {
+    padding-bottom: 20px;
+}
+
 #news h1 {
   padding-bottom: 20px;
 }
@@ -522,13 +526,19 @@ footer div {
 /*-----------------------------------*\ 
   #Sections - Contact section
 \*-----------------------------------*/
+#contact {
+  padding-bottom: 20px;
+}
+
 #contact div {
   display: flex;
   flex-direction: row;
   justify-content: center;
   background-color: var(--foreground-tertiary);
   padding-bottom: 20px;
+  padding-top: 20px;
 }
+
 #contact span {
   max-width: 600px;
  }
