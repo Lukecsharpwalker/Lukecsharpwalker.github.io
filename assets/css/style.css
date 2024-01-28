@@ -458,6 +458,34 @@ footer div {
 }
 
 /*-----------------------------------*\ 
+  #Sections
+\*-----------------------------------*/
+
+/*-----------------------------------*\ 
+  #Sections - About section
+\*-----------------------------------*/
+
+#about {
+  padding-bottom: 20px;
+}
+
+/*-----------------------------------*\ 
+  #Sections - News section
+\*-----------------------------------*/
+
+#news {
+  padding-bottom: 20px;
+}
+
+#news .news-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+/*-----------------------------------*\ 
     #MEDIA QUERIES
   \*-----------------------------------*/
 
