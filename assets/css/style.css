@@ -484,7 +484,7 @@ footer div {
   justify-content: space-between;
   border-top: 1px solid var(--third-color);
   gap: 30px;
-  flex-wrap: wrap;
+  flex-wrap: wrap-reverse;
   padding-top: 20px;
 }
 
@@ -619,6 +619,9 @@ footer div {
   /**
      * REUSED STYLE 
      */
+     #news .news-container {
+      flex-wrap: nowrap;
+    }
  
 
   .container {
@@ -627,17 +630,6 @@ footer div {
 
 }
 
-@media (max-width: 768px) {
-  .news-container  {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .news-text
-  .image-container {
-    order: unset;
-  }
-}
 
 
 
