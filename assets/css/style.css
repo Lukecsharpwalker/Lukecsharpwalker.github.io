@@ -485,6 +485,11 @@ footer div {
   gap: 20px;
 }
 
+#news .news-image-container {
+  max-width: 300px;
+  height: auto;
+}
+
 /*-----------------------------------*\ 
     #MEDIA QUERIES
   \*-----------------------------------*/
