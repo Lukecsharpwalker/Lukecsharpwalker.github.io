@@ -485,6 +485,7 @@ footer div {
 
 #news .image-container {
   justify-content: flex-end;
+  background-color: var(--white);
 }
 #news img {
   width: 50%;
