@@ -487,12 +487,19 @@ footer div {
 #news .image-container {
   justify-content: flex-end;
   background-color: var(--white);
+  width: 50%;
 }
 #news img {
-  width: 50%;
+  width: 100%;
+  height: auto;
+  object-fit: scale-down;
 }
 #news h1 {
   padding-bottom: 20px;
+}
+
+#news .news-text {
+  width: 50%;
 }
 
 /*-----------------------------------*\ 
