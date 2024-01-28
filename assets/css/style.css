@@ -483,6 +483,12 @@ footer div {
   justify-content: space-between;
 }
 
+#news .image-container {
+  justify-content: flex-end;
+}
+#news img {
+  width: 50%;
+}
 
 /*-----------------------------------*\ 
     #MEDIA QUERIES
