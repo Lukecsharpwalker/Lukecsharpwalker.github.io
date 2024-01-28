@@ -484,6 +484,8 @@ footer div {
   justify-content: space-between;
   border-top: 1px solid var(--third-color);
   gap: 30px;
+  flex-wrap: wrap-reverse;
+  padding-top: 20px;
 }
 
 #news .image-container {
@@ -503,7 +505,7 @@ footer div {
 }
 
 #news .news-text {
-  width: 50%;
+  width: 100%;
 }
 
 /*-----------------------------------*\ 
