@@ -522,10 +522,15 @@ footer div {
 /*-----------------------------------*\ 
   #Sections - Contact section
 \*-----------------------------------*/
-#contact span{
-  color: var(--third-color);
+#contact div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: var(--foreground-tertiary);
 }
-
+#contact span {
+  max-width: 600px;
+ }
 
 /*-----------------------------------*\ 
     #MEDIA QUERIES
